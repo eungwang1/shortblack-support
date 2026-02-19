@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>숏블랙 - 고객 지원</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #FAFAFA;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .header h1 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #3B2415;
+      letter-spacing: -1px;
+    }
+    .header p {
+      margin-top: 8px;
+      color: #888;
+      font-size: 14px;
+    }
+    .section {
+      background: white;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    .section h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: #3B2415;
+    }
+    .faq-item {
+      border-bottom: 1px solid #F0F0F0;
+      padding: 16px 0;
+    }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-item h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .faq-item p {
+      font-size: 14px;
+      color: #666;
+    }
+    .contact-info {
+      font-size: 14px;
+      color: #555;
+    }
+    .contact-info a {
+      color: #3B2415;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .contact-info a:hover { text-decoration: underline; }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      padding: 12px 0;
+      border-bottom: 1px solid #F0F0F0;
+    }
+    .contact-item:last-child { border-bottom: none; }
+    .contact-label {
+      font-weight: 600;
+      width: 100px;
+      flex-shrink: 0;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #AAA;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>숏블랙 고객 지원</h1>
+      <p>롱블랙 감상 일기</p>
+    </div>
+
+    <div class="section">
+      <h2>자주 묻는 질문</h2>
+      <div class="faq-item">
+        <h3>숏블랙은 어떤 앱인가요?</h3>
+        <p>숏블랙은 롱블랙 아티클을 읽고 감상을 기록하고 공유하는 커뮤니티 앱입니다. 매일 제공되는 아티클에 대한 나만의 감상을 남기고, 다른 사용자들과 생각을 나눌 수 있습니다.</p>
+      </div>
+      <div class="faq-item">
+        <h3>다른 기기에서 로그인하려면?</h3>
+        <p>마이 > 다른 기기 로그인에서 고유코드를 확인하고, 새 기기에서 해당 코드를 입력하면 기존 계정으로 로그인할 수 있습니다.</p>
+      </div>
+      <div class="faq-item">
+        <h3>부적절한 콘텐츠를 발견했어요</h3>
+        <p>감상이나 댓글의 더보기 메뉴에서 '신고' 버튼을 눌러 신고할 수 있습니다. 신고된 콘텐츠는 운영팀이 검토 후 적절한 조치를 취합니다. 또한 특정 사용자를 차단하여 해당 사용자의 콘텐츠가 표시되지 않도록 할 수 있습니다.</p>
+      </div>
+      <div class="faq-item">
+        <h3>사용자를 차단하고 싶어요</h3>
+        <p>사용자 프로필이나 감상 카드의 더보기 메뉴에서 '차단'을 선택하면 해당 사용자의 모든 콘텐츠가 피드에서 제외됩니다. 마이 > 차단 관리에서 차단을 해제할 수 있습니다.</p>
+      </div>
+      <div class="faq-item">
+        <h3>감상을 삭제하고 싶어요</h3>
+        <p>감상 상세 화면에서 우측 상단 더보기 메뉴를 통해 삭제할 수 있습니다.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>문의하기</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <span class="contact-label">이메일</span>
+          <a href="mailto:shortblack.app@gmail.com">shortblack.app@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">앱 내 문의</span>
+          <span>마이 > 문의하기</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>커뮤니티 가이드라인</h2>
+      <div class="faq-item">
+        <p>숏블랙은 건전한 감상 공유를 위해 다음 행위를 금지합니다:</p>
+        <ul style="margin-top: 12px; padding-left: 20px; color: #666; font-size: 14px;">
+          <li>욕설, 비속어, 혐오 표현</li>
+          <li>타인에 대한 괴롭힘, 위협, 명예훼손</li>
+          <li>성적으로 부적절한 콘텐츠</li>
+          <li>스팸, 광고, 사기성 콘텐츠</li>
+          <li>개인정보 무단 공개</li>
+          <li>아동 착취 관련 콘텐츠 (무관용 정책)</li>
+        </ul>
+        <p style="margin-top: 12px;">위반 시 콘텐츠 삭제 및 계정 제한 조치가 취해질 수 있습니다.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2024 숏블랙. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
